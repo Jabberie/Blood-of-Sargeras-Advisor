@@ -1,0 +1,8 @@
+## Interface: 70100
+## Title: Blood of Sargeras Advisior
+## Author: Jabberie
+## Reddit: https://www.reddit.com/r/woweconomy/comments/5gsscz/bos_appraiser/
+## Credit: https://www.reddit.com/user/sacoPT
+## Version: 0.1
+
+BoS_Advisior.lua
