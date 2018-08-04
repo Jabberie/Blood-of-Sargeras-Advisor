@@ -54,22 +54,3 @@ SLASH_BOSA1, SLASH_BOSA2 = '/bosa', '/bosadvisior'; -- 3.
 function SlashCmdList.BOSA()
    BoS_Advisior_Output();
 end
-
-
---------------------------------------------------------------------------------
----------------------         Debug Tools        -------------------------------
---------------------------------------------------------------------------------
-SLASH_RELOADUI1 = "/rl"; -- for quicker access to reloadui
-SlashCmdList.RELOADUI = ReloadUI;
---------------------------------------------------------------------------------
-SLASH_FRAMESTK1 = "/fs"; -- for quicker access to frame stack
-SlashCmdList.FRAMESTK = function()
- LoadAddOn("Blizzard_DebugTools");
- FrameStackTooltip_Toggle();
-end
---------------------------------------------------------------------------------
-for i = 1, NUM_CHAT_WINDOWS do -- allows arrow key movement in chat
- _G["ChatFrame" .. i .. "EditBox"]:SetAltArrowKeyMode(false);
-end
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------

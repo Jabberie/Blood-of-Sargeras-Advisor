@@ -1,9 +1,9 @@
-## Interface: 70300
+## Interface: 80001
 ## Title: Blood of Sargeras Advisior
 ## Author: Jabberie
 ## Reddit: https://www.reddit.com/r/woweconomy/comments/5gsscz/bos_appraiser/
 ## Credit: https://www.reddit.com/user/sacoPT
-## Version: 0.1
+## Version: 0.2
 ## Dependencies: TradeSkillMaster
 
 BoS_Advisior.lua
